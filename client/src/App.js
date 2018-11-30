@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { NavLink, Route } from 'react-router-dom';
 
+import SignUp from './components/Signup';
+import SignIn from './components/Signin';
+import Doggos from './components/Doggos';
+
 import './App.css';
 
 class App extends Component {
